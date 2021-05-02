@@ -1,3 +1,12 @@
+## [1.0.1](https://github.com/FreshlyBrewedCode/SIG/compare/dataset_coco/v1.0.0...dataset_coco/v1.0.1) (2021-05-02)
+
+
+### Bug Fixes
+
+* **Core:** add README and CHANGELOG meta files ([b964216](https://github.com/FreshlyBrewedCode/SIG/commit/b964216fedadf7ddaca4d1b4fc3856c70329be98))
+* **Dataset:** add README meta file ([f59cda8](https://github.com/FreshlyBrewedCode/SIG/commit/f59cda867d2d3076d315c0cdb1b89f8fcaf2d632))
+* **Dataset.Coco:** add CHANGELOG and README meta files ([69e2940](https://github.com/FreshlyBrewedCode/SIG/commit/69e294075f9112809f9d9954be8ce189f3a23ec2))
+
 # 1.0.0 (2021-05-02)
 
 
