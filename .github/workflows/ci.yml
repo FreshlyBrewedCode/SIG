@@ -1,0 +1,17 @@
+name: SIG.Core CI
+on:
+	push:
+		branches:
+			- master
+		paths:
+			- "Packages/de.frebreco.SIG.Core/**"
+jobs:
+	release:
+		if: "!contains(github.event.head_commit.message, 'skip ci')"
+		name: Release
+		runs-on: ubuntu-latest
+		steps:
+			- uses: FreshlyBrewedCode/upm-composite-action@v1
+			  with:
+				  root: "Packages/de.frebreco.SIG.Core"
+				  branch: "upm/core"

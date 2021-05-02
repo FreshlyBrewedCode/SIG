@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15cdda092c04ca94ba70e3467d2915a0, type: 3}
+  m_Name: Coco Dataset
+  m_EditorClassIdentifier: 
+  datasetPath: 
+  imageFormat: 1
+  imageSize: 128
+  info:
+    year: 2021
+    version: 1.0
+    description: 
+    contributor: Karl Moeller
+    url: 
+  category: {fileID: 11400000, guid: 2083f8f412e8412449ff94022982cfbb, type: 2}
+  license: {fileID: 11400000, guid: 3aba8695be6271948879f953484a8857, type: 2}

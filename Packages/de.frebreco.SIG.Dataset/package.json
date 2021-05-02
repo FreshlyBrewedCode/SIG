@@ -1,0 +1,27 @@
+{
+  "name": "de.frebreco.sig.dataset",
+  "version": "0.1.0",
+  "displayName": "SIG Dataset",
+  "description": "Implements a Unity-friendly dataset base model as well as base nodes to add dataset items and annotations during graph processing",
+  "unity": "2020.2",
+  "author": {
+    "name": "Karl Moeller",
+    "url": "https://github.com/FreshlyBrewedCode"
+  },
+  "dependencies": {
+    "jillejr.newtonsoft.json-for-unity": "12.0.301"
+  },
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.alelievr.node-graph-processor",
+        "jillejr.newtonsoft.json-for-unity",
+        "com.openupm"
+      ]
+    }
+  ],
+  "type": "tool",
+  "hideInEditor": false
+}

@@ -1,0 +1,26 @@
+{
+  "name": "de.frebreco.sig.dataset.coco",
+  "version": "0.1.0",
+  "displayName": "SIG Dataset Coco",
+  "description": "Implements the COCO dataset model with JSON annotations using the SIG.Dataset API",
+  "unity": "2020.2",
+  "author": {
+    "name": "Karl Moeller",
+    "url": "https://github.com/FreshlyBrewedCode"
+  },
+  "scopedRegistries": [{
+    "name": "package.openupm.com",
+    "url": "https://package.openupm.com",
+    "scopes": [
+      "com.alelievr.node-graph-processor",
+      "com.openupm"
+    ]
+  }],
+  "type": "tool",
+  "hideInEditor": false,
+  "samples": [{
+    "displayName": "OpenPose Coco",
+    "description": "Sample OpenPose graph that generates COCO datasets.",
+    "path": "Samples~/OpenPose Coco"
+  }]
+}

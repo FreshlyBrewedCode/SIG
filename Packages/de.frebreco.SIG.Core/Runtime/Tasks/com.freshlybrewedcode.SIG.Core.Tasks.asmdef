@@ -1,0 +1,20 @@
+{
+    "name": "com.freshlybrewedcode.SIG.Core.Tasks",
+    "rootNamespace": "",
+    "references": [
+        "GUID:026026963b0e44b40b6cfbc153ed3607",
+        "GUID:478a2357cc57436488a56e564b08d223",
+        "GUID:ca937d03ee5dd4d699091438dc0f3ae6"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
