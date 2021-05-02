@@ -1,3 +1,17 @@
+# [1.1.0](https://github.com/FreshlyBrewedCode/SIG/compare/core/v1.0.0...core/v1.1.0) (2021-05-02)
+
+
+### Bug Fixes
+
+* **Core:** add README and CHANGELOG meta files ([b964216](https://github.com/FreshlyBrewedCode/SIG/commit/b964216fedadf7ddaca4d1b4fc3856c70329be98))
+
+
+### Features
+
+* **Dataset:** add README ([b27657b](https://github.com/FreshlyBrewedCode/SIG/commit/b27657be966ae7b797bb2f2c707d3d794697c80a))
+* **Dataset.Coco:** add README ([f72b987](https://github.com/FreshlyBrewedCode/SIG/commit/f72b987b7a59f2fc56c6128b7399884de2d922dc))
+* **Python:** add README ([ee5e054](https://github.com/FreshlyBrewedCode/SIG/commit/ee5e0543dc057a74546050c24c20f07bf347b149))
+
 # 1.0.0 (2021-05-02)
 
 
