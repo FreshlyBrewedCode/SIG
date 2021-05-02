@@ -1,5 +1,5 @@
 module.exports = {
-    tagFormat: "v${version}",
+    tagFormat: process.env.pkgBranch + "/v${version}",
     plugins: [
         ["@semantic-release/commit-analyzer", { preset: "angular" }],
         "@semantic-release/release-notes-generator",
