@@ -1,6 +1,6 @@
 {
   "name": "de.frebreco.sig.dataset",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "displayName": "SIG Dataset",
   "description": "Implements a Unity-friendly dataset base model as well as base nodes to add dataset items and annotations during graph processing",
   "unity": "2020.2",
