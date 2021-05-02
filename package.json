@@ -1,0 +1,25 @@
+{
+  "name": "de.frebreco.sig.python",
+  "version": "0.1.0",
+  "displayName": "SIG Python",
+  "description": "Implements high-level python support using the Python for Unity package. It includes the python worker, a basic API to implement and load custom nodes using python, as well as an API to call python nodes from within native C# nodes",
+  "unity": "2020.2",
+  "author": {
+    "name": "Karl Moeller",
+    "url": "https://github.com/FreshlyBrewedCode"
+  },
+  "dependencies": {
+    "com.unity.scripting.python": "2.1.1-preview.1"
+  },
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.alelievr.node-graph-processor",
+        "com.openupm"
+      ]
+    }
+  ],
+  "hideInEditor": false
+}
