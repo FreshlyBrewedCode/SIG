@@ -1,6 +1,6 @@
 {
   "name": "de.frebreco.sig.dataset.coco",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "SIG Dataset Coco",
   "description": "Implements the COCO dataset model with JSON annotations using the SIG.Dataset API",
   "unity": "2020.2",
