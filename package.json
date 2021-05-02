@@ -1,6 +1,6 @@
 {
   "name": "de.frebreco.sig.core",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "displayName": "SIG Core",
   "description": "Implements the core functionality of SIG. This includes the base graph and graph editor, base node and built-in nodes, graph processor, SIG component API, and task API. SIG.Core is a dependency of all other SIG sub-packages",
   "unity": "2020.2",
@@ -8,21 +8,24 @@
     "name": "Karl Moeller",
     "url": "https://github.com/FreshlyBrewedCode"
   },
-  "scopedRegistries": [{
-    "name": "package.openupm.com",
-    "url": "https://package.openupm.com",
-    "scopes": [
-      "com.alelievr.node-graph-processor",
-      "com.openupm"
-    ]
-  }],
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.alelievr.node-graph-processor",
+        "com.openupm"
+      ]
+    }
+  ],
   "dependencies": {
     "com.alelievr.node-graph-processor": "1.0.0",
     "com.unity.editorcoroutines": "1.0.0"
   },
   "type": "tool",
   "hideInEditor": false,
-  "samples": [{
+  "samples": [
+    {
       "displayName": "SampleScene",
       "description": "Sample scene with basic processing setup.",
       "path": "Samples~/SampleScene"
