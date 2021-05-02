@@ -1,6 +1,6 @@
 {
   "name": "de.frebreco.sig.core",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "displayName": "SIG Core",
   "description": "Implements the core functionality of SIG. This includes the base graph and graph editor, base node and built-in nodes, graph processor, SIG component API, and task API. SIG.Core is a dependency of all other SIG sub-packages",
   "unity": "2020.2",
