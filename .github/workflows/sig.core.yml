@@ -1,4 +1,4 @@
-name: SIG.Core CI
+name: "SIG.Core CI"
 on:
 	push:
 		branches:
