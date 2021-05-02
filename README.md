@@ -49,9 +49,9 @@ SIG can be installed from the [OpenUPM][OpenUPM] registry. SIG can be added usin
 ```
 
 
-[Core]: /Packages/de.frebreco.SIG.Core/README.md
-[Python]: /Packages/de.frebreco.SIG.Python/README.md
-[Dataset]: /Packages/de.frebreco.SIG.Dataset/README.md
-[Dataset.Coco]: /Packages/de.frebreco.SIG.Dataset.Coco/README.md
+[Core]: /Packages/de.frebreco.SIG.Core
+[Python]: /Packages/de.frebreco.SIG.Python
+[Dataset]: /Packages/de.frebreco.SIG.Dataset
+[Dataset.Coco]: /Packages/de.frebreco.SIG.Dataset.Coco
 
 [OpenUPM]: https://openupm.com/
