@@ -1,0 +1,591 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0a1283634049b24b9e50e4b9f8d794f, type: 3}
+  m_Name: CubesGraph
+  m_EditorClassIdentifier: 
+  serializedNodes: []
+  nodes:
+  - id: 0
+  - id: 1
+  - id: 2
+  - id: 3
+  - id: 4
+  - id: 5
+  - id: 6
+  - id: 7
+  - id: 8
+  - id: 9
+  - id: 10
+  - id: 11
+  - id: 12
+  - id: 13
+  - id: 14
+  - id: 15
+  - id: 16
+  - id: 17
+  edges:
+  - GUID: 034d6884-634b-4ff8-a9cc-81ebdc999afe
+    owner: {fileID: 11400000}
+    inputNodeGUID: bc96933f-69d9-4770-9396-7d7a99b8a292
+    outputNodeGUID: 53725170-bd64-4930-9527-3af8b2ae1377
+    inputFieldName: prefab
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: db97b6fd-c2f1-4c31-95ee-c189d240ba8c
+    owner: {fileID: 11400000}
+    inputNodeGUID: 9fe5bbd8-38f3-4a8e-812f-e3a85dad2363
+    outputNodeGUID: efeb83cf-3e4f-4ab0-87c6-7678f7f1eb9a
+    inputFieldName: input
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: bf51e5c7-d0c4-41db-81c6-06bc0b961f0d
+    owner: {fileID: 11400000}
+    inputNodeGUID: 9fe5bbd8-38f3-4a8e-812f-e3a85dad2363
+    outputNodeGUID: efeb83cf-3e4f-4ab0-87c6-7678f7f1eb9a
+    inputFieldName: scaleIn
+    outputFieldName: scaleOut
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 8547440d-d9cb-428f-aef2-7f800a7b74ab
+    owner: {fileID: 11400000}
+    inputNodeGUID: 4c3154e4-db3b-4af8-85f4-eb3f88d9e2c2
+    outputNodeGUID: a12f0751-d85f-46c4-b0f5-003271585fd2
+    inputFieldName: y
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 7b23a82f-5b26-46ec-bb18-d8b2774c3a90
+    owner: {fileID: 11400000}
+    inputNodeGUID: 9fe5bbd8-38f3-4a8e-812f-e3a85dad2363
+    outputNodeGUID: 4c3154e4-db3b-4af8-85f4-eb3f88d9e2c2
+    inputFieldName: rotationIn
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 857c296b-8bd2-4eae-a15c-84e5e91f1a73
+    owner: {fileID: 11400000}
+    inputNodeGUID: 6a930198-010c-40fc-900b-17b70c68ecab
+    outputNodeGUID: 4b46a889-dbab-4b01-bb44-c10c9ba7309e
+    inputFieldName: input
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 2b605131-15c5-4fcd-b9f3-7cc59c3872ef
+    owner: {fileID: 11400000}
+    inputNodeGUID: 03808fc0-c32d-4a7a-9f93-25ccee203387
+    outputNodeGUID: 6a930198-010c-40fc-900b-17b70c68ecab
+    inputFieldName: input
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 559942db-b35d-4771-8ab7-83d72c085abf
+    owner: {fileID: 11400000}
+    inputNodeGUID: 8b16e6fc-7c2c-4417-930c-478c47681923
+    outputNodeGUID: 03808fc0-c32d-4a7a-9f93-25ccee203387
+    inputFieldName: camera
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: af6fb267-d341-4258-aa26-7ba88d3a8609
+    owner: {fileID: 11400000}
+    inputNodeGUID: 763f0881-81ed-49cd-b5d3-014d8f0a6b0b
+    outputNodeGUID: 8b16e6fc-7c2c-4417-930c-478c47681923
+    inputFieldName: texture
+    outputFieldName: image
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 58246ef5-852f-4b91-8505-5ccd3366ad7d
+    owner: {fileID: 11400000}
+    inputNodeGUID: efeb83cf-3e4f-4ab0-87c6-7678f7f1eb9a
+    outputNodeGUID: bc96933f-69d9-4770-9396-7d7a99b8a292
+    inputFieldName: input
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 3c82ff88-b23b-4c00-bd91-f3e38a3595ad
+    owner: {fileID: 11400000}
+    inputNodeGUID: 50b63c5f-f386-4288-98d0-d85fd19eb3ea
+    outputNodeGUID: 9fe5bbd8-38f3-4a8e-812f-e3a85dad2363
+    inputFieldName: input
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 630cb928-6172-4ae2-88be-40bbb1cee7c1
+    owner: {fileID: 11400000}
+    inputNodeGUID: 03808fc0-c32d-4a7a-9f93-25ccee203387
+    outputNodeGUID: 50b63c5f-f386-4288-98d0-d85fd19eb3ea
+    inputFieldName: target
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 9b606cf0-070c-4236-b8d0-54ee0ca388a7
+    owner: {fileID: 11400000}
+    inputNodeGUID: 8b16e6fc-7c2c-4417-930c-478c47681923
+    outputNodeGUID: 50b63c5f-f386-4288-98d0-d85fd19eb3ea
+    inputFieldName: scene
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 3e93bd3f-42ca-45cc-a4bf-2e03b84ec463
+    owner: {fileID: 11400000}
+    inputNodeGUID: f15deec7-8d93-454c-9d85-86e53ca07844
+    outputNodeGUID: 7e685266-4e5d-4694-9b9e-33cdf9330eb1
+    inputFieldName: y
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 82984a25-e62c-4c75-af5d-3240f5827dc4
+    owner: {fileID: 11400000}
+    inputNodeGUID: f15deec7-8d93-454c-9d85-86e53ca07844
+    outputNodeGUID: 146b65ac-c25c-464c-a40d-32254698ed16
+    inputFieldName: z
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: f14d09a4-d06a-4343-828b-5ef644c5a749
+    owner: {fileID: 11400000}
+    inputNodeGUID: f15deec7-8d93-454c-9d85-86e53ca07844
+    outputNodeGUID: 45a97257-b271-4260-9938-e6a52aad2f9a
+    inputFieldName: x
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: f980ecdf-3602-487f-8155-6e239d63701d
+    owner: {fileID: 11400000}
+    inputNodeGUID: 6a930198-010c-40fc-900b-17b70c68ecab
+    outputNodeGUID: f15deec7-8d93-454c-9d85-86e53ca07844
+    inputFieldName: positionIn
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: efa2fb66-2e95-4c4d-afe5-8c11e8b9b95a
+    owner: {fileID: 11400000}
+    inputNodeGUID: bc96933f-69d9-4770-9396-7d7a99b8a292
+    outputNodeGUID: df3b3d56-2a76-4336-b69f-dc20fff5d569
+    inputFieldName: count
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: output
+  - GUID: 9d10c81b-1302-4d63-89b3-3e6480fd02f1
+    owner: {fileID: 11400000}
+    inputNodeGUID: 8b16e6fc-7c2c-4417-930c-478c47681923
+    outputNodeGUID: c38ea377-bcc2-49ef-b740-4e88641e309b
+    inputFieldName: targetTexture
+    outputFieldName: output
+    inputPortIdentifier: 
+    outputPortIdentifier: output
+  groups: []
+  stackNodes: []
+  pinnedElements:
+  - position:
+      serializedVersion: 2
+      x: 12
+      y: 40
+      width: 215
+      height: 198
+    opened: 1
+    editorType:
+      serializedType: GraphProcessor.ExposedParameterView, com.alelievr.NodeGraphProcessor.Editor,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  exposedParameters:
+  - id: 18
+  - id: 19
+  serializedParameterList: []
+  stickyNotes: []
+  position: {x: -102, y: 138, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  references:
+    version: 1
+    00000000:
+      type: {class: PrefabNode, ns: , asm: com.freshlybrewedcode.SIG.Core}
+      data:
+        GUID: 53725170-bd64-4930-9527-3af8b2ae1377
+        computeOrder: 0
+        position:
+          serializedVersion: 2
+          x: 357
+          y: 461
+          width: 158
+          height: 97
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        output: {fileID: 1653971633437727772, guid: 9113ad4632ccebc40a389414a121b780,
+          type: 3}
+    00000001:
+      type: {class: InstantiateNode, ns: , asm: com.freshlybrewedcode.SIG.Core}
+      data:
+        GUID: bc96933f-69d9-4770-9396-7d7a99b8a292
+        computeOrder: 2
+        position:
+          serializedVersion: 2
+          x: 569
+          y: 460
+          width: 140
+          height: 101
+        expanded: 1
+        debug: 0
+        nodeLock: 0
+        prefab: {fileID: 1653971633437727772, guid: 9113ad4632ccebc40a389414a121b780,
+          type: 3}
+        count: 12
+    00000002:
+      type: {class: SetTransformNode, ns: , asm: com.freshlybrewedcode.SIG.Core}
+      data:
+        GUID: 9fe5bbd8-38f3-4a8e-812f-e3a85dad2363
+        computeOrder: 6
+        position:
+          serializedVersion: 2
+          x: 1027.7826
+          y: 456.2609
+          width: 126
+          height: 170
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        space: 0
+        positionIn: {x: 0, y: 0, z: 0}
+        rotationIn: {x: 0, y: 76.593765, z: 0}
+        scaleIn: {x: 1, y: 1, z: 1}
+    00000003:
+      type: {class: GetTransformNode, ns: , asm: com.freshlybrewedcode.SIG.Core}
+      data:
+        GUID: efeb83cf-3e4f-4ab0-87c6-7678f7f1eb9a
+        computeOrder: 3
+        position:
+          serializedVersion: 2
+          x: 745.7826
+          y: 458.2609
+          width: 127.00001
+          height: 170
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        space: 0
+        positionOut: {x: 0, y: 0, z: 0}
+        rotationOut: {x: -0, y: -0, z: -0, w: 1}
+        scaleOut: {x: 1, y: 1, z: 1}
+    00000004:
+      type: {class: RandomRangeNode, ns: , asm: com.freshlybrewedcode.SIG.Core}
+      data:
+        GUID: a12f0751-d85f-46c4-b0f5-003271585fd2
+        computeOrder: 4
+        position:
+          serializedVersion: 2
+          x: 714.7827
+          y: 662.26086
+          width: 132
+          height: 101
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        output:
+          x: 76.593765
+          y: 0
+          z: 0
+          w: 0
+          type: 2
+        start: 0
+        end: 360
+    00000005:
+      type: {class: CombineNode, ns: , asm: com.freshlybrewedcode.SIG.Core}
+      data:
+        GUID: 4c3154e4-db3b-4af8-85f4-eb3f88d9e2c2
+        computeOrder: 5
+        position:
+          serializedVersion: 2
+          x: 902.7826
+          y: 637.26086
+          width: 102
+          height: 149
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        output:
+          x: 0
+          y: 76.593765
+          z: 0
+          w: 0
+          type: 5
+        x: 0
+        y: 76.593765
+        z: 0
+        w: 0
+    00000006:
+      type: {class: CameraComponentNode, ns: , asm: com.freshlybrewedcode.SIG.Core}
+      data:
+        GUID: 4b46a889-dbab-4b01-bb44-c10c9ba7309e
+        computeOrder: 7
+        position:
+          serializedVersion: 2
+          x: 1071
+          y: 255
+          width: 224
+          height: 146
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        focalLength: 40
+        clearColor: {r: 0, g: 0, b: 0, a: 0}
+        clearFlags: 1
+    00000007:
+      type: {class: LookAtNode, ns: , asm: com.freshlybrewedcode.SIG.Core}
+      data:
+        GUID: 03808fc0-c32d-4a7a-9f93-25ccee203387
+        computeOrder: 14
+        position:
+          serializedVersion: 2
+          x: 1584
+          y: 534
+          width: 140
+          height: 146
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        space: 0
+        zoom: 0
+    00000008:
+      type: {class: SetTransformNode, ns: , asm: com.freshlybrewedcode.SIG.Core}
+      data:
+        GUID: 6a930198-010c-40fc-900b-17b70c68ecab
+        computeOrder: 13
+        position:
+          serializedVersion: 2
+          x: 1433
+          y: 253
+          width: 126
+          height: 170
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        space: 0
+        positionIn: {x: -4.821745, y: 1.3257275, z: -5.25457}
+        rotationIn: {x: 0, y: 0, z: 0}
+        scaleIn: {x: 1, y: 1, z: 1}
+    00000009:
+      type: {class: SIGRendererNode, ns: , asm: com.freshlybrewedcode.SIG.Core}
+      data:
+        GUID: 8b16e6fc-7c2c-4417-930c-478c47681923
+        computeOrder: 16
+        position:
+          serializedVersion: 2
+          x: 1872
+          y: 459
+          width: 162
+          height: 149
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        resolution: {x: 128, y: 128}
+        targetTexture: {fileID: 8400000, guid: 625e07277e50ff54a905d9bdfd5ef945, type: 2}
+        image: {fileID: 8400000, guid: 625e07277e50ff54a905d9bdfd5ef945, type: 2}
+    0000000A:
+      type: {class: TexturePreviewNode, ns: , asm: com.freshlybrewedcode.SIG.Core}
+      data:
+        GUID: 763f0881-81ed-49cd-b5d3-014d8f0a6b0b
+        computeOrder: 17
+        position:
+          serializedVersion: 2
+          x: 2087.068
+          y: 457.94708
+          width: 187
+          height: 77
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        texture: {fileID: 8400000, guid: 625e07277e50ff54a905d9bdfd5ef945, type: 2}
+        passThrough: {fileID: 8400000, guid: 625e07277e50ff54a905d9bdfd5ef945, type: 2}
+    0000000B:
+      type: {class: OffsetNode, ns: , asm: com.freshlybrewedcode.SIG.Core}
+      data:
+        GUID: 50b63c5f-f386-4288-98d0-d85fd19eb3ea
+        computeOrder: 8
+        position:
+          serializedVersion: 2
+          x: 1282.9567
+          y: 456.91306
+          width: 115.00001
+          height: 170
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        space: 0
+        offsetPos: {x: 1.1, y: 0, z: 0}
+        offsetRot: {x: 0, y: 0, z: 0}
+        offsetScale: {x: 0, y: 0, z: 0}
+    0000000C:
+      type: {class: RandomRangeNode, ns: , asm: com.freshlybrewedcode.SIG.Core}
+      data:
+        GUID: 7e685266-4e5d-4694-9b9e-33cdf9330eb1
+        computeOrder: 10
+        position:
+          serializedVersion: 2
+          x: 1046
+          y: 26
+          width: 132
+          height: 101
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        output:
+          x: 1.3257275
+          y: 0
+          z: 0
+          w: 0
+          type: 2
+        start: 0
+        end: 5
+    0000000D:
+      type: {class: CombineNode, ns: , asm: com.freshlybrewedcode.SIG.Core}
+      data:
+        GUID: f15deec7-8d93-454c-9d85-86e53ca07844
+        computeOrder: 12
+        position:
+          serializedVersion: 2
+          x: 1305
+          y: 83
+          width: 102
+          height: 149
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        output:
+          x: -4.821745
+          y: 1.3257275
+          z: -5.25457
+          w: 0
+          type: 5
+        x: -4.821745
+        y: 1.3257275
+        z: -5.25457
+        w: 0
+    0000000E:
+      type: {class: RandomRangeNode, ns: , asm: com.freshlybrewedcode.SIG.Core}
+      data:
+        GUID: 146b65ac-c25c-464c-a40d-32254698ed16
+        computeOrder: 9
+        position:
+          serializedVersion: 2
+          x: 1046
+          y: 134
+          width: 132
+          height: 101
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        output:
+          x: -5.25457
+          y: 0
+          z: 0
+          w: 0
+          type: 2
+        start: -2
+        end: -6
+    0000000F:
+      type: {class: RandomRangeNode, ns: , asm: com.freshlybrewedcode.SIG.Core}
+      data:
+        GUID: 45a97257-b271-4260-9938-e6a52aad2f9a
+        computeOrder: 11
+        position:
+          serializedVersion: 2
+          x: 1046
+          y: -78
+          width: 132
+          height: 101
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        output:
+          x: -4.821745
+          y: 0
+          z: 0
+          w: 0
+          type: 2
+        start: -5
+        end: 5
+    00000010:
+      type: {class: ParameterNode, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        GUID: df3b3d56-2a76-4336-b69f-dc20fff5d569
+        computeOrder: 1
+        position:
+          serializedVersion: 2
+          x: 439
+          y: 376
+          width: 100
+          height: 39
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        parameterGUID: b48be544-c934-4135-8318-1399af67f97f
+        accessor: 0
+    00000011:
+      type: {class: ParameterNode, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        GUID: c38ea377-bcc2-49ef-b740-4e88641e309b
+        computeOrder: 15
+        position:
+          serializedVersion: 2
+          x: 1781
+          y: 603
+          width: 74
+          height: 39
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        parameterGUID: 6e93fa08-9f1d-4ebf-9ee7-9554cde803c0
+        accessor: 0
+    00000012:
+      type: {class: IntParameter, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        guid: b48be544-c934-4135-8318-1399af67f97f
+        name: Cube Count
+        type: 
+        serializedValue:
+          serializedType: 
+          serializedName: 
+          serializedValue: 
+        input: 1
+        settings:
+          id: 20
+        val: 12
+    00000013:
+      type: {class: RenderTextureParameter, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        guid: 6e93fa08-9f1d-4ebf-9ee7-9554cde803c0
+        name: Output
+        type: 
+        serializedValue:
+          serializedType: 
+          serializedName: 
+          serializedValue: 
+        input: 1
+        settings:
+          id: 21
+        val: {fileID: 8400000, guid: 625e07277e50ff54a905d9bdfd5ef945, type: 2}
+    00000014:
+      type: {class: IntParameter/IntSettings, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        isHidden: 0
+        expanded: 0
+        guid: b48be544-c934-4135-8318-1399af67f97f
+        mode: 1
+        min: 1
+        max: 25
+    00000015:
+      type: {class: ExposedParameter/Settings, ns: GraphProcessor, asm: com.alelievr.NodeGraphProcessor.Runtime}
+      data:
+        isHidden: 0
+        expanded: 0
+        guid: 6e93fa08-9f1d-4ebf-9ee7-9554cde803c0
