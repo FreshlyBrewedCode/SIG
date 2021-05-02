@@ -1,0 +1,18 @@
+{
+    "name": "com.freshlybrewedcode.SIG.Dataset",
+    "rootNamespace": "",
+    "references": [
+        "GUID:026026963b0e44b40b6cfbc153ed3607",
+        "GUID:ca937d03ee5dd4d699091438dc0f3ae6",
+        "GUID:a4f9522090dceda46964dd2ca22571a1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

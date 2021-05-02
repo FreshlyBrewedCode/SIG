@@ -1,0 +1,19 @@
+{
+    "name": "com.freshlybrewedcode.SIG.DatasetEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2c5864be6cca014488cfeac24feda4df",
+        "GUID:65e033faf3a35924abd7bd29117591ff"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
