@@ -12,7 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: FreshlyBrewedCode/upm-composite-action@v1
-      with:
-        root: "Packages/de.frebreco.SIG.Core"
-        branch: "upm/core"
-                
+        with:
+          root: "Packages/de.frebreco.SIG.Core"
+          branch: "upm/core"
